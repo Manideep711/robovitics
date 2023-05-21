@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <fieldset> 
+        <legend><h1>Registration Form</h1></legend>
+<head>
+  
+</head>
+<body>
+    
+  <h2>Robovitics club </h2>
+  <form>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required placeholder="enter your name"><br><br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" placeholder="enter your email"><br><br>
+    <label for="phone">mobile number:</label>
+    <input type="tel" id="phone" name="phone" placeholder="enter your mobile number"><br><br>
+    <label for="school">school:</label>
+    <input type="text" id="school" name="school" placeholder="your school name" ><br><br>
+    <label for="regno">Regestration no:</label>
+    <input type="text" id="regno" name="regno" required placeholder="enter your Regestration no:"><br><br>
+    <label for="gender">Gender:</label>
+    <select id="gender" name="gender">
+      <option value="male">Male</option>
+      <option value="female">Female</option>
+      <option value="other">Other</option>
+    </select><br><br>
+  <h4>choose your domain</h4>
+    <input type="radio" id="webdev" name="domain" value="webdev">
+    <label for="webdev">Web Development</label><br>
+    
+    <input type="radio" id="electrical" name="domain" value="electrical">
+    <label for="electrical">Electrical</label><br>
+    
+    <input type="radio" id="mechanical" name="domain" value="mechanical">
+    <label for="mechanical">Mechanical</label><br>
+    
+    <input type="radio" id="ai_ml" name="domain" value="ai_ml">
+    <label for="ai_ml">AI/ML</label><br><br>
+    <label for="desc">Why do you choose Robovitics</label>
+    <textarea id="desc" name="desc" rows="4" cols="30" placeholder="write in 200-300 words"></textarea><br><br>
+<label for="file">attach your portfolio:</label>
+    <input type="file" id="file"><br><br>
+    <label for="git">github:</label>
+    <input type="text" id="git" name="git" required placeholder="github url" ><br><br>
+    <label for="ldn">Linkedin:</label>
+    <input type="text" id="ldn" name="ldn" required placeholder="linkedin url"><br><br>
+    <input type="submit" value="Register">
+  </form>
+</body>
+</fieldset>
+</html>
